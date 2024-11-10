@@ -1,6 +1,6 @@
 import React from 'react'
-import { AiOutlineAlert, AiOutlineMenu } from 'react-icons/ai'
-import { TiThMenu } from "react-icons/ti"
+import {AiOutlineMenu } from 'react-icons/ai'
+//import { TiThMenu } from "react-icons/ti"
 const Navbar = () => {
   return (
     <div className='container pt-8'>

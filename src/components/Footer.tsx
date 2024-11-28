@@ -1,8 +1,9 @@
 import React from 'react'
+import '@/app/style/footer.css';
 
 function Footer() {
   return (
-    <div className='mt-16 py-6 text-center bg-accent'>
+    <div className='footer'>
        syeda | All rights reserved 2024.
     </div>
   )

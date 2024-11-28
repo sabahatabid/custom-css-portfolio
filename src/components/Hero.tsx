@@ -1,11 +1,12 @@
 import React from 'react';
 import Navbar from './Navbar';
+import '@/app/style/hero.css';
 
 const Hero = () => {
   return (
     <div
       id="hero"
-      className="min-h-screen bg-no-repeat bg-cover"
+      className="hero-container"
       style={{
         backgroundImage: 'url(/profile.jpeg)',
         backgroundSize: '20%',
@@ -13,10 +14,10 @@ const Hero = () => {
       }}
     >
       <Navbar />
-      <div className="container grid lg:grid-cols-2 h-[calc(100vh-60px)]">
+      <div className="hero-content">
         <div className="hidden lg:block"></div>
-        <div className="flex justify-center items-center lg:justify-end text-center lg:text-left">
-          <div>
+        <div className="hero-text">
+          <div className='hero-msin'>
             <p data-aos="zoom-in-up" className="text-[50px] sm:text-[60px] md:text-[80px] font-bold leading-tight">
               I am
             </p>
